@@ -1,0 +1,45 @@
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.log
+
+# 🔒 Файлы конфигурации и окружения
+.env
+.env.*
+
+# 🧪 Тесты и кэш
+.pytest_cache/
+.tox/
+.coverage
+.cache
+
+# 🧠 Виртуальные окружения
+.venv/
+venv/
+ENV/
+env/
+
+# 💾 Базы данных
+*.sqlite3
+*.db
+
+# 💻 IDE и редакторы
+.vscode/
+.idea/
+.DS_Store
+
+# 📦 Docker
+*.pid
+*.tar
+
+# 📓 Jupyter
+.ipynb_checkpoints
+
+# 🔧 PyInstaller
+*.spec
+
+# 📄 Ruff / Mypy
+.ruff_cache/
+.mypy_cache/
