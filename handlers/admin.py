@@ -1,5 +1,5 @@
 from aiogram import Router
-from account_bot.config import ADMIN_IDS,BOT_TOKEN
+from config import ADMIN_IDS,BOT_TOKEN
 from aiogram import Router, F
 from aiogram.filters import Command
 from aiogram.types import CallbackQuery
@@ -10,7 +10,7 @@ from states.add_account import AddAccountState
 from aiogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from database.db import insert_account
 from database.db import delete_account_by_id,get_all_accounts  # Предположим, эти функции есть
-from account_bot.handlers.is_admin import IsAdmin
+from handlers.is_admin import IsAdmin
 import re
 router = Router()
 def extract_price(text: str) -> int | None:
