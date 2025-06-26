@@ -9,8 +9,8 @@ from database.db import get_accounts_by_category
 from database.db import get_account_by_id
 from aiogram.exceptions import TelegramBadRequest
 from keyboards.inline import admin_decision_keyboard
-from account_bot.keyboards.reply import main_menureply_keyboard
-from account_bot.utils.language import get_lang
+from keyboards.reply import main_menureply_keyboard
+from utils.language import get_lang
 
 class FeedbackStates(StatesGroup):
     waiting_for_text = State()
