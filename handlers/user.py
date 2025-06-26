@@ -1,5 +1,5 @@
 from gc import callbacks
-from account_bot.config import ADMIN_IDS, Review, BOT_TOKEN, chat_admin
+from config import ADMIN_IDS, Review, BOT_TOKEN, chat_admin
 from aiogram import Router, F
 from aiogram.types import Message, CallbackQuery,InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.fsm.context import FSMContext
